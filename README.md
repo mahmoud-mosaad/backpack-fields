@@ -1,4 +1,4 @@
-# Toggle Chained Fields for Backpack 4.*
+# Custom Fields for Backpack 4.*
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
