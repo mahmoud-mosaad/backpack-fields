@@ -1,0 +1,29 @@
+{
+    "name": "mahmoud-mosaad/backpack-fields",
+    "description": "Adds custom fields which useful for certain purposes to Backpack Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud Mosaad",
+            "email": "mahmoudmosaad50@gmail.com",
+            "homepage": "https://www.linkedin.com/in/mahmoudmosaad50/"
+        }
+    ],
+    "homepage": "https://github.com/mahmoud-mosaad/backpack-fields",
+    "keywords": ["Laravel", "Backpack", "Backpack for Laravel", "Addon", "Toggle select", "Toggle select from array", "Toggle select2", "Toggle", "Select from array multiple ajax"],
+    "require": {
+        "backpack/crud": "^4.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mahmoudmosaad\\BackpackFields\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mahmoudmosaad\\BackpackFields\\AddonServiceProvider"
+            ]
+        }
+    }
+}
