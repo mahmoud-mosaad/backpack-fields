@@ -63,25 +63,6 @@ $this->crud->addField([
 composer remove mahmoud-mosaad/backpack-fields
 ```
 
-
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [contributing.md](contributing.md) for details and a todolist.
-
-## Security
-
-If you discover any security related issues, please email [the author](composer.json) instead of using the issue tracker.
-
-## Credits
-
-- [Adoptavia](https://github.com/adoptavia) - created the field type and shared it in [this thread](https://github.com/Laravel-Backpack/CRUD/issues/1724#issuecomment-441438326);
-- [Cristian Tabacitu](https://github.com/tabacitu) - polish & packaging;
-- [All Contributors][link-contributors]
-
 ## License
 
 MIT. Please see the [license file](license.md) for more information.
