@@ -1,4 +1,4 @@
-# Toggle Field for Backpack 4
+# Toggle Chained Fields for Backpack 4.*
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -16,7 +16,7 @@ This package provides a ```toggle``` field type for the [Backpack for Laravel](h
 Via Composer
 
 ``` bash
-composer require digitallyhappy/toggle-field-for-backpack
+composer require mahmoud-mosaad/backpack-fields
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ If you need to change the field in any way, you can easily publish the file to y
 mkdir -p resources/views/vendor/backpack/crud/fields
 
 # copy the blade file inside the folder we created above
-cp -i vendor/digitallyhappy/toggle-field-for-backpack/src/resources/views/fields/toggle.blade.php resources/views/vendor/backpack/crud/fields/toggle.blade.php
+cp -i vendor/mahmoud-mosaad/backpack-fields/src/resources/views/fields/toggle.blade.php resources/views/vendor/backpack/crud/fields/toggle.blade.php
 ```
 
 **Step 2.** Remove the vendor namespace wherever you've used the field:
@@ -60,7 +60,7 @@ $this->crud->addField([
 
 **Step 3.** Uninstall this package. Since it only provides one file - ```toggle.blade.php```, and you're no longer using that file, it makes no sense to have the package installed:
 ```bash
-composer remove digitallyhappy/toggle-field-for-backpack
+composer remove mahmoud-mosaad/backpack-fields
 ```
 
 
@@ -86,10 +86,10 @@ If you discover any security related issues, please email [the author](composer.
 
 MIT. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/digitallyhappy/toggle-field-for-backpack.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/digitallyhappy/toggle-field-for-backpack.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/mahmoud-mosaad/backpack-fields.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/mahmoud-mosaad/backpack-fields.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/digitallyhappy/toggle-field-for-backpack
-[link-downloads]: https://packagist.org/packages/digitallyhappy/toggle-field-for-backpack
+[link-packagist]: https://packagist.org/packages/mahmoud-mosaad/backpack-fields
+[link-downloads]: https://packagist.org/packages/mahmoud-mosaad/backpack-fields
 [link-author]: https://tabacitu.ro
 [link-contributors]: ../../contributors
