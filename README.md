@@ -3,9 +3,9 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This package provides a ```toggle``` field type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```toggle``` field allows admins to **_toggle_ the value of a boolean variable between true/false, in a prettier way**. It uses a CSS-only solution, so it has zero external dependencies and zero javascript.
+This package provides custom fields type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```_toggle``` fields allows admins to **_toggle_ another fields as dependency, in a prettier way**. The ```_array_ajax``` fields adds select from array not **_relationships_** only admins to
 
-> **This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get the ```toggle``` field type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
+> **This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get fields type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
 
 ## Screenshots
 
