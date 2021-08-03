@@ -3,13 +3,13 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This package provides custom fields type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```_toggle``` fields allows admins to **_toggle_ another fields as dependency, in a prettier way**. The ```_array_ajax``` fields adds select from array not **_relationships_** only admins to
+This package provides custom fields type for the [Backpack for Laravel](https://backpackforlaravel.com/) administration panel. The ```_toggle``` fields allows admins to **_toggle_ another fields as dependency, in a prettier way**. The ```_array_ajax``` fields adds select from array not **_relationships_** only
 
 > **This package has been created to make it easy for developers to share their custom fields with the Backpack community. You can use this package to get fields type, sure. But you can also fork it, to create a Backpack addon. For more information on how to do this, check out Backpack's addon docs.**
 
 ## Screenshots
 
-![Backpack Toggle Field Addon](https://user-images.githubusercontent.com/1032474/74032390-7db64d00-49bc-11ea-80dc-b7c84b2c2e65.png)
+![Backpack Toggle Field Addon](https://i.imgur.com/n4cB8sJ.gif)
 
 ## Installation
 
