@@ -55,8 +55,7 @@ $this->crud->addField([
 mkdir -p resources/views/vendor/backpack/crud/fields
 
 # copy the blade file inside the folder we created above
-# if using windows replace cp with copy
-cp vendor/mahmoud-mosaad/backpack-fields/src/resources/views/crud/fields/* resources/views/vendor/backpack/crud/fields/
+xcopy .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\resources\views\vendor\backpack\crud\fields\
 ```
 
 **Step 3.** Uninstall this package. Since it only provides fields and you're no longer using those files, it makes no sense to have the package installed:
