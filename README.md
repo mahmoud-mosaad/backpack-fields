@@ -25,18 +25,29 @@ Inside your custom CrudController:
 
 ```php
 $this->crud->addField([
-    'name' => 'agreed',
-    'label' => 'I agree to the terms and conditions',
-    'type' => 'toggle',
+    'name' => 'from_place',
+    'type'  => 'select_from_array_toggle',
+    'label' => 'From Places',
+    'options' => [
+        1 => 'First',
+        2 => 'Second',
+        3 => 'Third',
+        4 => 'Fourth',
+        100 => 'Other',
+    ],
+    'allows_null' => false,
+    'show_when' => [
+        100 => [
+            'from_place_other'
+        ]
+    ],
+]);
+$this->crud->addField([
+    'name' => 'from_place_other',
+    'label' => trans('backpack::base.other'),
+    'type' => 'text',
 ]);
 ```
-
-Notice the ```view_namespace``` attribute - make sure that is exactly as above, to tell Backpack to load the field from this _addon package_, instead of assuming it's inside the _Backpack\CRUD package_.
-
-
-## Overwriting
-
-If you need to change the field in any way, you can easily publish the file to your app, and modify that file any way you want. But please keep in mind that you will not be getting any updates.
 
 **Step 1.** Copy-paste the blade file to your directory:
 ```bash
