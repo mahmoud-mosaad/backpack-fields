@@ -28,7 +28,6 @@ $this->crud->addField([
     'name' => 'agreed',
     'label' => 'I agree to the terms and conditions',
     'type' => 'toggle',
-    'view_namespace' => 'toggle-field-for-backpack::fields',
 ]);
 ```
 
@@ -45,20 +44,11 @@ If you need to change the field in any way, you can easily publish the file to y
 mkdir -p resources/views/vendor/backpack/crud/fields
 
 # copy the blade file inside the folder we created above
-cp -i vendor/mahmoud-mosaad/backpack-fields/src/resources/views/fields/toggle.blade.php resources/views/vendor/backpack/crud/fields/toggle.blade.php
+# if using windows replace cp with copy
+cp vendor/mahmoud-mosaad/backpack-fields/src/resources/views/crud/fields/* resources/views/vendor/backpack/crud/fields/
 ```
 
-**Step 2.** Remove the vendor namespace wherever you've used the field:
-```diff
-$this->crud->addField([
-    'name' => 'agreed',
-    'type' => 'toggle',
-    'label' => 'I agree to the terms and conditions',
--   'view_namespace' => 'toggle-field-for-backpack::fields'
-]);
-```
-
-**Step 3.** Uninstall this package. Since it only provides one file - ```toggle.blade.php```, and you're no longer using that file, it makes no sense to have the package installed:
+**Step 3.** Uninstall this package. Since it only provides fields and you're no longer using those files, it makes no sense to have the package installed:
 ```bash
 composer remove mahmoud-mosaad/backpack-fields
 ```
@@ -72,5 +62,4 @@ MIT. Please see the [license file](license.md) for more information.
 
 [link-packagist]: https://packagist.org/packages/mahmoud-mosaad/backpack-fields
 [link-downloads]: https://packagist.org/packages/mahmoud-mosaad/backpack-fields
-[link-author]: https://tabacitu.ro
-[link-contributors]: ../../contributors
+[link-author]: https://www.linkedin.com/in/mahmoudmosaad50/
