@@ -13,17 +13,5 @@
     "keywords": ["Laravel", "Backpack", "Backpack for Laravel", "Addon", "Toggle select", "Toggle select from array", "Toggle select2", "Toggle", "Select from array multiple ajax"],
     "require": {
         "backpack/crud": "^4.1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "mahmoudmosaad\\BackpackFields\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "mahmoudmosaad\\BackpackFields\\AddonServiceProvider"
-            ]
-        }
     }
 }
