@@ -51,9 +51,6 @@ $this->crud->addField([
 
 **Step 1.** Copy-paste the blade file to your directory:
 ```bash
-# create the fields directory if it's not already there
-mkdir -p resources/views/vendor/backpack/crud/fields
-
 # copy the blade file inside the folder we created above
 xcopy .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\resources\views\vendor\backpack\crud\fields\
 ```
