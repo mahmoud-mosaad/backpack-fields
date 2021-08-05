@@ -58,7 +58,7 @@ xcopy .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\
 cp .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\resources\views\vendor\backpack\crud\fields\
 ```
 
-**Step 3.** Uninstall this package. Since it only provides fields and you're no longer using those files, it makes no sense to have the package installed:
+**Step 2.** Uninstall this package. Since it only provides fields and you're no longer using those files, it makes no sense to have the package installed:
 ```bash
 composer remove mahmoud-mosaad/backpack-fields
 ```
