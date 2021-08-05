@@ -9,7 +9,7 @@ This package provides custom fields type for the [Backpack for Laravel](https://
 
 ## Screenshots
 
-![Backpack Toggle Field Addon](https://i.imgur.com/n4cB8sJ.gif)
+![Select From Array Toggle](https://i.imgur.com/n4cB8sJ.gif)
 
 ## Installation
 
@@ -51,14 +51,21 @@ $this->crud->addField([
 
 **Step 1.** Copy-paste the blades to your directory:
 ```bash
-# copy the blade file inside the folder we created above
+# Publish Vendor Views to resources (Win CMD)
 xcopy .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\resources\views\vendor\backpack\crud\fields\
+
+# Publish Vendor Views to resources (Bash)
+cp .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\resources\views\vendor\backpack\crud\fields\
 ```
 
 **Step 3.** Uninstall this package. Since it only provides fields and you're no longer using those files, it makes no sense to have the package installed:
 ```bash
 composer remove mahmoud-mosaad/backpack-fields
 ```
+
+## Credits
+
+- [Mahmoud Mosaad][link-author] - Author;
 
 ## License
 
