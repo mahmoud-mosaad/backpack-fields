@@ -42,6 +42,7 @@ $this->crud->addField([
         ]
     ],
 ]);
+
 $this->crud->addField([
     'name' => 'from_place_other',
     'label' => trans('backpack::base.other'),
