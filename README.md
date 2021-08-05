@@ -49,7 +49,7 @@ $this->crud->addField([
 ]);
 ```
 
-**Step 1.** Copy-paste the blades to your directory:
+**Publish Views.** Copy-paste the blades to your directory:
 ```bash
 # Publish Vendor Views to resources (Win CMD)
 xcopy .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\resources\views\vendor\backpack\crud\fields\
@@ -58,14 +58,14 @@ xcopy .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\
 cp .\vendor\mahmoud-mosaad\backpack-fields\src\resources\views\crud\fields .\resources\views\vendor\backpack\crud\fields\
 ```
 
-**Step 2.** Uninstall this package. Since it only provides fields and you're no longer using those files, it makes no sense to have the package installed:
+**Uninstall this package.** Since it only provides fields you already published and you're no longer using those files, it makes no sense to have the package installed:
 ```bash
 composer remove mahmoud-mosaad/backpack-fields
 ```
 
 ## Credits
 
-- [Mahmoud Mosaad][link-author] - Author;
+- [Mahmoud Mosaad][link-author] - Author
 
 ## License
 
