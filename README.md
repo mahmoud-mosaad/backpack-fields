@@ -69,7 +69,7 @@ composer remove mahmoud-mosaad/backpack-fields
 
 ## License
 
-MIT. Please see the [license file](license.md) for more information.
+MIT. Please see the [license file](LICENSE) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/mahmoud-mosaad/backpack-fields.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/mahmoud-mosaad/backpack-fields.svg?style=flat-square
